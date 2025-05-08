@@ -13,7 +13,7 @@ const navLinks = [
 
 const Navbar = () => {
   return (
-    <header className="bg-white shadow-sm">
+    <header className="bg-white border-b-1 border-gray-300 sticky top-0 z-[999]">
       <div className="container mx-auto px-4 py-3 flex items-center justify-between">
         <div className="flex items-center space-x-6">
           <Link href="/">

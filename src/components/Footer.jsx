@@ -29,7 +29,7 @@ const footerLinks = [
 
 export default function Footer() {
   return (
-    <footer className="bg-[#153460] text-white py-10 px-32 text-sm">
+    <footer className="bg-[#153460] text-white py-10 px-5 md:px-32 text-sm">
       <div className="flex flex-wrap justify-between gap-y-8 border-b border-gray-300 pb-8">
         <div className="max-w-xs">
           <Image

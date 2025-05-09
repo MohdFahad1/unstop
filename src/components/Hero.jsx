@@ -63,7 +63,7 @@ const users = [
 
 const Hero = () => {
   return (
-    <section className="py-8 bg-white px-32">
+    <section className="py-8 bg-white px-5 md:px-32">
       <div className=" px-4 grid md:grid-cols-2 gap-12 items-center">
         <div className="w-[82%]">
           <h1 className="text-6xl font-semibold ">

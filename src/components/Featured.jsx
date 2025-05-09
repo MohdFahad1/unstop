@@ -80,7 +80,7 @@ const FeaturedOpportunities = () => {
   };
 
   return (
-    <section className="py-12 bg-gray-50 px-32">
+    <section className="py-12 bg-gray-50 px-5 md:px-32">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between mb-6">
           <div className="flex items-end gap-2">

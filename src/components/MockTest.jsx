@@ -167,7 +167,7 @@ const MockTest = () => {
   const filtered = TESTS.filter((t) => t.category === activeCat);
 
   return (
-    <section className="py-12 bg-white px-32">
+    <section className="py-12 bg-white px-5 md:px-32">
       <div className="flex items-center justify-between mb-6">
         <div>
           <h2 className="text-2xl font-semibold">

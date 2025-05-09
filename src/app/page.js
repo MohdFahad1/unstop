@@ -6,6 +6,7 @@ import Competition from "@/components/Competition";
 import TopMentorsSection from "@/components/TopMentors";
 import MockTest from "@/components/MockTest";
 import PracticeSection from "@/components/Practice";
+import SkillsSection from "@/components/Skills";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <TopMentorsSection />
       <MockTest />
       <PracticeSection />
+      <SkillsSection />
     </div>
   );
 }

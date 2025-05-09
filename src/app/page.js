@@ -4,6 +4,7 @@ import Hero from "@/components/Hero";
 import TrustSection from "@/components/Trusted";
 import Competition from "@/components/Competition";
 import TopMentorsSection from "@/components/TopMentors";
+import MockTest from "@/components/MockTest";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <FeaturedOpportunities />
       <Competition />
       <TopMentorsSection />
+      <MockTest />
     </div>
   );
 }

@@ -11,7 +11,7 @@ const partners = [
   { name: "HP", src: "/hp.png" },
 ];
 
-export default function TrustSection() {
+const TrustSection = () => {
   return (
     <section className="bg-gray-100">
       <div className="container mx-auto px-4 flex items-center space-x-6 gap-12">
@@ -38,4 +38,6 @@ export default function TrustSection() {
       </div>
     </section>
   );
-}
+};
+
+export default TrustSection;

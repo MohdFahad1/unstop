@@ -9,7 +9,7 @@ const numbers = [
 
 const NumberSection = () => {
   return (
-    <section className="py-12 px-4 md:px-8 lg:px-5 md:px-32 bg-white">
+    <section className="py-12 px-4  md:px-24 bg-white">
       <h1 className="text-3xl font-semibold text-center mb-5">Our Numbers</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
         {numbers.map((item) => (

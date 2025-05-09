@@ -41,7 +41,7 @@ const Carousel = () => {
   const nextSlide = () => setCurrent((prev) => (prev + 1) % length);
 
   return (
-    <div className="py-10 px-5 md:px-32">
+    <div className="py-10 px-5 md:px-24">
       <div className="relative w-full overflow-hidden rounded-lg">
         <div
           className="flex transition-transform duration-500 ease-in-out"

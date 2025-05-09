@@ -63,9 +63,9 @@ const users = [
 
 const Hero = () => {
   return (
-    <section className="py-8 bg-white px-5 md:px-32">
+    <section className="py-8 bg-white px-5 md:px-24">
       <div className=" px-4 grid md:grid-cols-2 gap-12 items-center">
-        <div className="w-[82%]">
+        <div className="w-[80%]">
           <h1 className="text-6xl font-semibold ">
             <span className="text-[#1C4980]">Unlock</span>{" "}
             <span className="text-gray-900">Your Career</span>
@@ -93,7 +93,7 @@ const Hero = () => {
             src={"/dummy1.png"}
             height={50}
             width={50}
-            className="absolute -right-[50px] top-[38%]"
+            className="absolute -right-[40px] top-[38%]"
             alt="dummy"
           />
           <Image
@@ -106,7 +106,7 @@ const Hero = () => {
           {cards.map(({ title, subtitle, bg, text, img }) => (
             <div
               key={title}
-              className={`${bg} rounded-2xl p-6 flex flex-col justify-between text-[#212121] overflow-hidden relative h-[130px] hover:-translate-y-2 duration-300 cursor-pointer w-[330px]`}
+              className={`${bg} rounded-2xl p-6 flex flex-col justify-between text-[#212121] overflow-hidden relative h-[130px] hover:-translate-y-2 duration-300 cursor-pointer w-[300px]`}
             >
               <div>
                 <h3 className="text-xl font-semibold">{title}</h3>
@@ -120,7 +120,7 @@ const Hero = () => {
                   alt={title}
                   width={230}
                   height={230}
-                  className="absolute -right-10 -bottom-10"
+                  className="absolute -right-18 -bottom-10"
                 />
               </div>
             </div>

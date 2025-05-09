@@ -5,7 +5,7 @@ import { IoCheckmarkCircleOutline } from "react-icons/io5";
 
 const SkillsSection = () => {
   return (
-    <section className="py-12 px-4 md:px-8 lg:px-5 md:px-32">
+    <section className="py-12 px-4 md:px-24">
       <div className="bg-white rounded-2xl overflow-hidden grid grid-cols-1 md:grid-cols-2">
         <div className="relative bg-yellow-100">
           <Image

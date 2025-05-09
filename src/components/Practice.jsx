@@ -47,7 +47,7 @@ const PracticeSection = () => {
   const [hovered, setHovered] = useState(null);
 
   return (
-    <section className="py-12 px-5 md:px-32 bg-white">
+    <section className="py-12 px-5 md:px-24 bg-white">
       <div className="flex items-center justify-between mb-6">
         <div>
           <h2 className="text-2xl font-semibold">

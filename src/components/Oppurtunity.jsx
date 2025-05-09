@@ -34,7 +34,7 @@ const CARDS = [
 
 const OpportunitySection = () => {
   return (
-    <section className="py-12 px-4 md:px-8 lg:px-5 md:px-32 bg-white space-y-12">
+    <section className="py-12 px-4 md:px-24 bg-white space-y-12">
       <div className="flex items-center justify-between">
         <div>
           <h2 className="text-2xl font-semibold">

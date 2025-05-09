@@ -8,6 +8,7 @@ import MockTest from "@/components/MockTest";
 import PracticeSection from "@/components/Practice";
 import SkillsSection from "@/components/Skills";
 import OpportunitySection from "@/components/Oppurtunity";
+import NumberSection from "@/components/Numbers";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
       <PracticeSection />
       <SkillsSection />
       <OpportunitySection />
+      <NumberSection />
     </div>
   );
 }

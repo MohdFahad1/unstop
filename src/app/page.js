@@ -3,6 +3,7 @@ import FeaturedOpportunities from "@/components/Featured";
 import Hero from "@/components/Hero";
 import TrustSection from "@/components/Trusted";
 import Competition from "@/components/Competition";
+import TopMentorsSection from "@/components/TopMentors";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Carousel />
       <FeaturedOpportunities />
       <Competition />
+      <TopMentorsSection />
     </div>
   );
 }

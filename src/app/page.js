@@ -1,4 +1,5 @@
 import Carousel from "@/components/Carousel";
+import FeaturedOpportunities from "@/components/Featured";
 import Hero from "@/components/Hero";
 import TrustSection from "@/components/Trusted";
 
@@ -8,6 +9,7 @@ export default function Home() {
       <Hero />
       <TrustSection />
       <Carousel />
+      <FeaturedOpportunities />
     </div>
   );
 }
